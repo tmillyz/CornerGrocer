@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Corner Grocer Inventory Management System</h1>
+    </header>
+
+    <section id="inventory">
+        <h2>Inventory List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="inventory-list">
+                <!-- Inventory items will go here -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="add-item">
+        <h2>Add New Product</h2>
+        <form id="add-item-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-quantity" placeholder="Quantity" required>
+            <input type="number" id="product-price" placeholder="Price" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
