@@ -49,3 +49,32 @@ Make your changes.
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/your-feature).
 Open a pull request.
+
+# Project: Inventory Management System (Backend)
+This project focuses on creating the backend for an inventory management system. The backend allows users to add inventory items, sort them by specific attributes, and display the inventory in a formatted table. The backend is designed to handle inventory with prices, including fractional prices (e.g., less than $1), and provides functionality to manage and display the inventory effectively.
+
+Features
+Add Item: Users can add items to the inventory with a name, price (decimal), and quantity (integer).
+Display Inventory: Displays the current inventory with the details of the items: name, price, and quantity.
+Sort Inventory: Users can sort the inventory based on Name, Price, or Quantity.
+File Structure
+corner_grocer.py: Main Python file containing the backend functionality.
+Contains functions to:
+add_item: Adds items to the inventory list.
+display_inventory: Displays the current inventory.
+sort_inventory: Sorts the inventory by the specified field.
+main_menu: Interactive menu for user interaction.
+How to Run
+Ensure Python is installed on your system (Python 3.x is recommended).
+
+Save the provided Python script to a file called inventory_management.py.
+
+Run the script using the command:
+
+bash
+Copy code
+python corner_grocer.py
+Follow the on-screen menu to interact with the inventory system:
+
+Add new items by entering their name, price, and quantity.
+Display the current inventory or sort it by name, price, or quantity.
